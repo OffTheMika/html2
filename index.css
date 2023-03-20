@@ -4,10 +4,7 @@
 
 }
 
-.Home{
-    width: 100vw;
-    height: 100vh;
-}
+
 
 .nav-bar{
     background-color: goldenrod;
@@ -36,20 +33,22 @@
     transition-duration: 0.5s;
 }
 
-.titel{
-  display: grid;
-  justify-content: center;
-  height: 100%;
-  background-color: black;
-  color: white;
+.tokyo-rev{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 100vh;
+justify-content: center;
+text-align: center;
 }
-.titel-tekst{
-    margin-left: 40%;
+.text-home{
+ display: grid;
+ align-items: center;
+    background-color: black;
+    color: goldenrod;
+
+    height: 100vh;
 }
 
-.text{
-    color: white;
-}
 .footer{
     display: flex;
     font-size: 25px;
