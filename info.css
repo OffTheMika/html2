@@ -4,10 +4,10 @@
 }
 
 .nav-bar{
+    background-color: goldenrod;
     display: flex;
     font-size: 25px;
     justify-content: space-around;
-    border: solid;
     padding-bottom: 20px;
     padding-top: 20px;
     
@@ -20,19 +20,68 @@
     padding-bottom: 5px;
     padding-top: 3px;
     border-radius: 40px;
-    
+    color: black;
 
 }
 
 .link:hover{
-    background-color: blue;
-    color: white;
+    background-color: black;
+    color: goldenrod;
     transition-duration: 0.5s;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr
+}
+
+.series{
+    border: solid goldenrod;
+    background-color: black;
+}
+
+.tokyo-rev{
+    display: grid;
+    justify-content: center;
+    color: goldenrod;
+}
+
+.tokyo-rev-text{
+    margin-top: 50px;
+    display: grid;
+   align-items: center;
+   justify-content: center;
+   color: goldenrod;
+}
+
+.toman{
+    border: solid goldenrod;
+    background-color: black;
 }
 
 .title{
     display: grid;
-    height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr
+    justify-content: center;
+    color: goldenrod;
+}
+
+.toman-text{
+    margin-top: 50px;
+    display: grid;
+   align-items: center;
+   justify-content: center;
+   color: goldenrod;
+}
+
+.footer{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+    border: solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: goldenrod;
+
     
 }
