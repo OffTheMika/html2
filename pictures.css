@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .nav-bar{
@@ -35,49 +36,536 @@
     height: 100vh;
     width: 100vw;
    
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(4,1fr);
 }
+
+/* SECTION MIKEY */
 
 .mikey{
-   position: relative;
-  
-   width: 25vw;
-  
+    position: relative;
 }
-.mikey div{
+
+.mikey img{
+    width: 100%;
+    height: 100%;
    
-    text-align: center;
+}
+
+.mikey .mikey-text{
     position: absolute;
-
- width: 25vw;
- height: 310px;
-  top: 0;
-    color: black;
-    opacity: 0 ;
-  
-
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
 }
 
-.mikey:hover{
-   transition-duration: 1.5s;
-   opacity: 0.7;
-    
+.mikey:hover img{
+  filter: brightness(0.3);
 }
-.mikey-tekst{
 
-    visibility: visible;
-    opacity: 1; 
+.mikey:hover .mikey-text{
+    opacity: 1;
 }
+
+/* SECTION DRAKEN */
 
 .draken{
-    width: 25vw;
     position: relative;
+}
+
+.draken img{
+    width: 100%;
+    height: 100%;
    
 }
 
-.takemitchi{
-   width: 25vw;
+.draken .draken-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
 }
 
+.draken:hover img{
+  filter: brightness(0.3);
+}
+
+.draken:hover .draken-text{
+    opacity: 1;
+}
+
+/* SECTION TAKEMICHI */
+
+.takemichi{
+    position: relative;
+}
+
+.takemichi img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.takemichi .takemichi-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.takemichi:hover img{
+  filter: brightness(0.3);
+}
+
+.takemichi:hover .takemichi-text{
+    opacity: 1;
+}
+ 
+/* SECTION BAJI */
+
+.baji{
+    position: relative;
+}
+
+.baji img{
+    width: 96.5%;
+    height: 100%;
+   
+}
+
+.baji .baji-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.baji:hover img{
+  filter: brightness(0.6);
+}
+
+.baji:hover .baji-text{
+    opacity: 1;
+}
+/* SECTION KAZUTORA */
+
+.kazutora{
+    position: relative;
+}
+
+.kazutora img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.kazutora .kazutora-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.kazutora:hover img{
+  filter: brightness(0.4);
+}
+
+.kazutora:hover .kazutora-text{
+    opacity: 1;
+}
+
+/* SECTION MITSUYA */
+
+.mitsuya{
+    position: relative;
+}
+
+.mitsuya img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.mitsuya .mitsuya-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.mitsuya:hover img{
+  filter: brightness(0.6);
+}
+
+.mitsuya:hover .mitsuya-text{
+    opacity: 1;
+}
+
+/* SECTION PAH */
+
+.pah{
+    position: relative;
+}
+
+.pah img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.pah .pah-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.pah:hover img{
+  filter: brightness(0.3);
+}
+
+.pah:hover .pah-text{
+    opacity: 1;
+}
+
+/* SECTION KISAKI */
+
+.kisaki{
+    position: relative;
+}
+
+.kisaki img{
+    width: 96.5%;
+    height: 100%;
+   
+}
+
+.kisaki .kisaki-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.kisaki:hover img{
+  filter: brightness(0.3);
+}
+
+.kisaki:hover .kisaki-text{
+    opacity: 1;
+}
+/* SECTION SMILEY */
+
+.smiley{
+    position: relative;
+}
+
+.smiley img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.smiley .smiley-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.smiley:hover img{
+  filter: brightness(0.3);
+}
+
+.smiley:hover .smiley-text{
+    opacity: 1;
+}
+
+/* SECTION  MUCHO */
+
+.mucho{
+    position: relative;
+}
+
+.mucho img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.mucho .mucho-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.mucho:hover img{
+  filter: brightness(0.3);
+}
+
+.mucho:hover .mucho-text{
+    opacity: 1;
+}
+
+/* SECTION  chifuyu */
+
+.chifuyu{
+    position: relative;
+}
+
+.chifuyu img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.chifuyu .chifuyu-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.chifuyu:hover img{
+  filter: brightness(0.3);
+}
+
+.chifuyu:hover .chifuyu-text{
+    opacity: 1;
+}
+
+/* SECTION  HAKKAI */
+
+.hakkai{
+    position: relative;
+}
+
+.hakkai img{
+    width: 96.5%;
+    height: 100%;
+   
+}
+
+.hakkai .hakkai-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.hakkai:hover img{
+  filter: brightness(0.3);
+}
+
+.hakkai:hover .hakkai-text{
+    opacity: 1;
+}
+/* SECTION  PEH-YAN */
+
+.peh{
+    position: relative;
+}
+
+.peh img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.peh .peh-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.peh:hover img{
+  filter: brightness(0.3);
+}
+
+.peh:hover .peh-text{
+    opacity: 1;
+}
+
+/* SECTION  HANMA */
+
+.hanma{
+    position: relative;
+}
+
+.hanma img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.hanma .hanma-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.hanma:hover img{
+  filter: brightness(0.3);
+}
+
+.hanma:hover .hanma-text{
+    opacity: 1;
+}
+
+/* SECTION  ANGRY */
+
+.angry{
+    position: relative;
+}
+
+.angry img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.angry .angry-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.angry:hover img{
+  filter: brightness(0.3);
+}
+
+.angry:hover .angry-text{
+    opacity: 1;
+}
+
+/* SECTION  SANZU */
+
+.sanzu{
+    position: relative;
+}
+
+.sanzu img{
+    width: 96.5%;
+    height: 100%;
+   
+}
+
+.sanzu .sanzu-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.sanzu:hover img{
+  filter: brightness(0.3);
+}
+
+.sanzu:hover .sanzu-text{
+    opacity: 1;
+}
+@media(max-width:576px){
+    *{
+        font-size: 13px;
+    }
+}

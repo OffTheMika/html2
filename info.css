@@ -29,3 +29,10 @@
     color: white;
     transition-duration: 0.5s;
 }
+
+.title{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr
+    
+}
