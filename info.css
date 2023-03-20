@@ -74,6 +74,25 @@
    color: goldenrod;
 }
 
+.tenjiku{
+   
+    background-color: black;
+}
+
+.tenjiku-arc{
+    display: grid;
+    justify-content: center;
+    color: goldenrod;
+}
+
+.tenjiku-text{
+    margin-top: 50px;
+    display: grid;
+   align-items: center;
+   justify-content: center;
+   color: goldenrod;
+}
+
 .footer{
     display: flex;
     font-size: 25px;
