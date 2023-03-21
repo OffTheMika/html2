@@ -81,8 +81,31 @@
 
     
 }
-@media(max-width:576px){
-    *{
-        font-size: 13px;
+@media(max-width:769px){
+    
+    .Pictures{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
     }
 }
+
+@media(max-width:426px){
+
+    .Pictures{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    *{
+        font-size: 12px;
+    }
+
+    .nav-bar{
+        font-size: 12px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+}
+
+
