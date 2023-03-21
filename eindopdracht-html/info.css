@@ -35,6 +35,13 @@
     height: 100vh;
     grid-template-rows: 1fr 1fr 1fr
 }
+.text{
+    margin-top: 50px;
+    display: grid;
+   align-items: center;
+   justify-content: center;
+   color: goldenrod;
+}
 
 .series{
     border: solid goldenrod;
@@ -47,13 +54,6 @@
     color: goldenrod;
 }
 
-.tokyo-rev-text{
-    margin-top: 50px;
-    display: grid;
-   align-items: center;
-   justify-content: center;
-   color: goldenrod;
-}
 
 .toman{
     border: solid goldenrod;
@@ -66,13 +66,6 @@
     color: goldenrod;
 }
 
-.toman-text{
-    margin-top: 50px;
-    display: grid;
-   align-items: center;
-   justify-content: center;
-   color: goldenrod;
-}
 
 .tenjiku{
    
@@ -85,13 +78,7 @@
     color: goldenrod;
 }
 
-.tenjiku-text{
-    margin-top: 50px;
-    display: grid;
-   align-items: center;
-   justify-content: center;
-   color: goldenrod;
-}
+
 
 .footer{
     display: flex;
@@ -103,4 +90,29 @@
     background-color: goldenrod;
 
     
+}
+
+@media(max-width:769px){
+    .text{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:426px){
+
+    .Pictures{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    *{
+        font-size: 12px;
+    }
+
+    .nav-bar{
+        font-size: 12px;
+    }
+    .footer{
+        font-size: 12px;
+    }
 }

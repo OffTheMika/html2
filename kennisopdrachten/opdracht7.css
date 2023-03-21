@@ -1,0 +1,75 @@
+body{
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    display: grid;
+    width: 400px;
+    height: 200px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(4,1fr);
+    border: solid;
+}
+
+.nummer{
+    font-size: 30px;
+}
+
+.a{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 4;
+    background-color: green;
+}
+.b{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 4;
+    background-color: blue;
+}
+.c{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 4;
+    background-color: red;
+}
+.d{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 4;
+    background-color: yellow;
+}
+.a2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 4;
+    background-color: green;
+}
+.b2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 4;
+    background-color: blue;
+}
+.c2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 4;
+    background-color: red;
+}
+.d2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 4;
+    background-color: yellow;
+}
